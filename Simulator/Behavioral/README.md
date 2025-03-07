@@ -44,7 +44,7 @@ A `Makefile` is provided in this directory to facilitate simulation and waveform
 
   This removes the simulation executable and waveform file.
 
-### 3) Understanding the Waveform Signals
+### 2) Understanding the Waveform Signals
 
 - The module `top_stream_out_inst` contains the AXI-stream interface signals:
 
@@ -63,7 +63,7 @@ A `Makefile` is provided in this directory to facilitate simulation and waveform
   - `best_hamiltonian[14:0]`
   - `best_spins[45:0]`
 
-### 4) Running Verification
+### 3) Running Verification
 
 The verification script `random_gen_text_cobifive_ori.py` is located in the `verification` folder.
 
@@ -79,7 +79,7 @@ The verification script `random_gen_text_cobifive_ori.py` is located in the `ver
    make verif
    ```
 
-### 5) Cleanup
+### 4) Cleanup
 
 Once all tasks are complete, run:
 
