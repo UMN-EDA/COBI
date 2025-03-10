@@ -822,7 +822,7 @@ def sim_mc_wrapper_pool(netlist_path, stopTime, num_mc, size, d_arr, p_idx_arr):
 
 if __name__ == '__main__':
     build_timing('./data/timing_asap7.txt', quiet=True)
-    J = np.loadtxt('/home/grads/kumar663/scripts/android/runtime_data/50x50/0.2/prob_0/J_matrix.txt', dtype=int)
+    J = np.loadtxt('./data/problems/1.0/prob_0/J_matrix.txt', dtype=int)
     
     okay = 0
     val_err = 0
@@ -836,7 +836,7 @@ if __name__ == '__main__':
                 en2osc=en2osc,                          # Map enable pins to ROs
                 netlist_path='./data/ising_50x50.sp',   # Path to netlist
                 J=J,                                    # Path to coupling matrix
-                stopTime=200e-9,                        # Simulation stop time 
+                stopTime=300e-9,                        # Simulation stop time 
                 log=log,                                # Enable/disable detailed logging
                 logname='dbg_50.txt',                   # Path to logfile 
                 )
