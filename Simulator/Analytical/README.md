@@ -24,7 +24,7 @@ The top-level function is `sim` from `droid.py`. Here is a summary of its argume
 
 # Returns:
   `best_ham`: Best Hamiltonian value from the simulation
-  `best_sol`: Solution corresponding to the best hamiltonian
+  `best_sol`: Solution corresponding to the best Hamiltonian
 
 
 If detailed logging is disabled, a brief summary is provided in the logfile along with the droid runtime and arguments that are needed to recreate the simulation.
