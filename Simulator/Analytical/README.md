@@ -1,4 +1,4 @@
-This simulator implements DROID: Discrete-Time Simulation for Ring-Oscillator-Based Ising Design ([arXiv:2502.19399](https://arxiv.org/abs/2502.19399)).
+This simulator implements [DROID: Discrete-Time Simulation for Ring-Oscillator-Based Ising Design](https://www.nature.com/articles/s41598-025-00037-y).
 
 To set up the virtual environment required, please use the requirements.txt file.
 
